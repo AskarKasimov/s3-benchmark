@@ -7,6 +7,12 @@ Using Git:
 git clone https://github.com/AskarKasimov/s3-benchmark
 ```
 
+Using wget (zip-archive):
+
+```
+wget https://github.com/AskarKasimov/s3-benchmark/archive/refs/heads/master.zip
+```
+
 ## Run
 1. Set the following ENV variables (create .env file):
     - `HOST` — url to S3 machine
