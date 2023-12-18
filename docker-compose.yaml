@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  s3-benchmark:
+    build:
+      context: ./
+    container_name: s3-benchmark
+    env_file:
+      - ./.env
